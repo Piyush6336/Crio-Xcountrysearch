@@ -4,7 +4,7 @@ import './styles.css';
 function App() {
   const [data, setData] = useState([]);
   const [originalData, setOriginalData] = useState([]); 
-  const API_ENDPOINT = 'https://restcountries.com/v3.1/all';
+  const API_ENDPOINT = 'https://countries-search-data-prod-812920491762.asia-south1.run.app/countries';
 
   async function fetchApi() {
     try {
