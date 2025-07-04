@@ -47,7 +47,7 @@ function App() {
         
           {data.map(({ name, flags, cca3 }) => (
             <div key={cca3} className="countryCard">
-              <img src={flags.svg} alt={name.common} style={{ width: '100px', height: '100px' }} />
+              <img src={flags.png} alt={name.common} style={{ width: '100px', height: '100px' }} />
               <h2>{name.common}</h2>
             </div>
           ))}
